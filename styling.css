@@ -1,0 +1,75 @@
+body{
+    background-color: #DEC9E9;
+    font-family: "Helvetica-Neue-Light", "Helvetica Neue Light", "Helvetica Neuve", "Arial", "Helvetica", 
+    "Lucida Grande", sans-serif;
+    align-items: center;
+    align-content: center;
+}
+
+.todo-wrapper{
+    margin-top: 50px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 25px;
+    font-weight: 250;
+}
+
+.todo-wrapper h2{
+    margin: 0;
+}
+
+.todo-wrapper p{
+    font-style: italic;
+    color: grey;
+    margin: 5px 0;
+}
+
+.todo-wrapper ol{
+    margin: 20px 0;
+}
+
+.todo-wrapper ol li {
+    margin: 5px 0;
+    padding: 3px;
+    transition: all 0.5s ease-out;
+}
+
+ .todo-wrapper form{
+    display: inline-block;
+} 
+
+.todo-wrapper input{
+    padding: 3px 5px;
+}
+
+.todo-wrapper .pretty-button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.todo-wrapper .pretty-button{
+    margin: 10px 2px;
+    color: white;
+    background-color: #6247AA;
+    border-radius: 15px;
+    padding: 5px 15px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: small;
+}
+
+#control-wrapper #empty-button {
+    background-color: red;
+}
+
+#control-wrapper #clear-completed-button{
+    background-color: rgb(0, 153, 255);
+}
+
+#control-wrapper #save-button{
+    background-color: rgb(0, 225, 37);
+}
